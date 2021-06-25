@@ -6,7 +6,7 @@ const client = new Discord.Client();
 
 // Insert bot token right here
 // template : client.login('BOT TOKEN');
-client.login('ODU3OTg4OTIxMTY2MjY2Mzg5.YNXmcw.JPxPLoMrP3l5CF4Gslw67w71f0w'); // 
+client.login('ODU3OTg4OTIxMTY2MjY2Mzg5.YNXmcw.iQhy553afAPGWXYJr4N1_aLFOHE'); // 
 
 client.on('ready', readyDiscord);
 
