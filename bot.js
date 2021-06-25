@@ -1,6 +1,7 @@
 // First, dont forget to install discord.js into your project
 // by typing npm install discord.js in your terminal
 const {
+    repliesMessageList,
     monkeyFunFactsList,
     camelFunFactsList,
     kangarooFunFactsList,

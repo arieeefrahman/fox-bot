@@ -41,6 +41,7 @@ const pigFunFactsList = [
 ];
 
 module.exports = {
+    repliesMessageList,
     monkeyFunFactsList,
     camelFunFactsList,
     kangarooFunFactsList,
