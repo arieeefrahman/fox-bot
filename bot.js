@@ -4,9 +4,11 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
+require('dotenv').config();
+
 // Insert bot token right here
 // template : client.login('BOT TOKEN');
-client.login('ODU3OTg4OTIxMTY2MjY2Mzg5.YNXmcw.iQhy553afAPGWXYJr4N1_aLFOHE'); // 
+client.login(process.env.BOTTOKEN); // 
 
 client.on('ready', readyDiscord);
 
