@@ -1,4 +1,4 @@
-const repliesMessageList = [
+const animalEmojiList = [
     '🐒',
     '🐪',
     '🦘',
@@ -41,7 +41,7 @@ const pigFunFactsList = [
 ];
 
 module.exports = {
-    repliesMessageList,
+    animalEmojiList,
     monkeyFunFactsList,
     camelFunFactsList,
     kangarooFunFactsList,
