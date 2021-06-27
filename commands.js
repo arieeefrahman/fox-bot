@@ -2,7 +2,7 @@ const animalemoji = require('./commandslist/animalemoji');
 const gif = require('./commandslist/gif');
 const ping = require('./commandslist/ping');
 
-const commands = { animalemoji, gif, ping };
+const commands = { animalemoji, gif };
 
 module.exports = async function (msg) {
     console.log(msg.content); // indicator in terminal
