@@ -11,5 +11,5 @@ module.exports = async function (msg, args) {
     let json = await response.json();
 
     const gif_index = Math.floor(Math.random() * json.results.length);
-     msg.channel.send(json.results[gif_index].url);
+    msg.channel.send(json.results[gif_index].url);
 };
