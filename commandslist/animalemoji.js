@@ -1,3 +1,7 @@
+// animal emoji command.
+// If you type !animalemoji, the bot will reply with
+// random 4 animal emoji and random fact about the animal.
+
 const {
     animalEmojiList,
     monkeyFunFactsList,

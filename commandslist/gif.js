@@ -1,3 +1,8 @@
+// gif command.
+// The bot will reply with gif
+// 1. !gif => return default clingy keyword gif
+// 2. !gif keyword => return gif with the keyword that you asked.
+
 const fetch = require('node-fetch');
 
 module.exports = async function (msg, args) {

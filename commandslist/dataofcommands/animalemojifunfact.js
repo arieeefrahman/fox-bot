@@ -1,3 +1,6 @@
+// Belong to animal emoji command
+// Funfact data
+
 const animalEmojiList = [
     '🐒',
     '🐪',
