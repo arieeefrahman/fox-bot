@@ -1,3 +1,5 @@
+// main file
+
 // First, dont forget to install discord.js into your project
 // by typing npm install discord.js in your terminal
 
