@@ -1,6 +1,6 @@
-const animalemoji = require('./commandslist/animalemoji');
-const gif = require('./commandslist/gif');
-const ping = require('./commandslist/ping');
+const animalemoji = require('./commands_list/animalemoji');
+const gif = require('./commands_list/gif');
+const ping = require('./commands_list/ping');
 
 const commands = { animalemoji, gif, ping };
 

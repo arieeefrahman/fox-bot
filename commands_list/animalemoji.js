@@ -8,7 +8,7 @@ const {
     camelFunFactsList,
     kangarooFunFactsList,
     pigFunFactsList
-} = require('./dataofcommands/animalemojifunfact');
+} = require('./commands_data/animalemojifunfact');
 
 module.exports = function (msg, args) {
     const animalEmojiIndex = Math.floor(Math.random() * animalEmojiList.length);

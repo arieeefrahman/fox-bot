@@ -1,5 +1,3 @@
-# fox-bot
+# What Does The Fox Say? Bot
 
-Yeah, this my first discord bot.
-
-Just a simple bot, called Fox Bot.
+This is my first discord bot.
