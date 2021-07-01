@@ -10,10 +10,10 @@ const {
     pigFunFactsList
 } = require('./commands_data/animalemojifunfact');
 
-module.exports = function (msg, args) {
+module.exports = (msg, args) => {
     const animalEmojiIndex = Math.floor(Math.random() * animalEmojiList.length);
 
-    switch(animalEmojiList[animalEmojiIndex]) {
+    switch (animalEmojiList[animalEmojiIndex]) {
         // Monkey
         case '🐒':
             msg.reply('you get a monkey emoji!');

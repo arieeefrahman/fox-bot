@@ -5,7 +5,7 @@
 
 const fetch = require('node-fetch');
 
-module.exports = async function (msg, args) {
+module.exports = async (msg, args) => {
     let keywords = 'clingy';
     if (args.length > 0) {
         keywords = args.join(" ");
