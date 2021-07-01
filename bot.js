@@ -21,11 +21,13 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 client.login(process.env.BOTTOKEN); // Insert bot token right here || template : client.login('BOT TOKEN');
 
-client.on('ready', readyDiscord);
+
 // Indicator the bot is on/off
-function readyDiscord() {
+const readyDiscord = () => {
     console.log("Hi, I'm ready to work! 😎");
 }
+
+client.on('ready', readyDiscord);
 
 const commandHandler = require('./commands');
 client.on('message', commandHandler);

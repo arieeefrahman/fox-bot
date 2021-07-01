@@ -1,4 +1,5 @@
 // gif command.
+
 // The bot will reply with gif
 // 1. !gif => return default clingy keyword gif
 // 2. !gif keyword => return gif with the keyword that you asked.
@@ -15,6 +16,6 @@ module.exports = async (msg, args) => {
     let response = await fetch(url);
     let json = await response.json();
 
-    const gif_index = Math.floor(Math.random() * json.results.length);
-    msg.channel.send(json.results[gif_index].url);
+    const index = Math.floor(Math.random() * json.results.length);
+    msg.channel.send(json.results[index].url);
 };

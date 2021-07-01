@@ -6,7 +6,7 @@ const playmusic = require('./commands_list/music');
 
 const commands = { animalemoji, gif, ping, foxhelp, playmusic };
 
-module.exports = async function (msg) {
+module.exports = async (msg) => {
     console.log(msg.content); // indicator in terminal
 
     if (msg.channel == '857986376896872469') {
