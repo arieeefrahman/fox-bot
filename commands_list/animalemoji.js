@@ -11,7 +11,7 @@ const {
     pigFunFactsList
 } = require('./commands_data/animalemojifunfact');
 
-module.exports =  (msg) => {
+module.exports = (msg) => {
     const index = Math.floor(Math.random() * animalEmojiList.length);
 
     switch (animalEmojiList[index]) {
