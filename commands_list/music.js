@@ -8,17 +8,12 @@ module.exports = async (msg, args) => {
 
     if (!voiceChannel) {
         return msg.channel.send('You need to be in a channel to execute music command!');
-    }
-
-    if (args.length === 0) {
+    } else if (args.length === 0) {
         return msg.channel.send("You need to input command (play/skip/stop)");
     }
 
     const permissions = voiceChannel.permissionsFor(msg.client.user);
-    if (!permissions.has('CONNECT')) {
-        return msg.channel.send('You dont have the correct permissions');
-    }
-    if (!permissions.has('SPEAK')) {
+    if ((!permissions.has('CONNECT')) || (!permissions.has('SPEAK'))) {
         return msg.channel.send('You dont have the correct permissions');
     }
 
