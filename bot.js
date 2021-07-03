@@ -24,7 +24,7 @@ client.login(process.env.BOTTOKEN); // Insert bot token right here || template :
 
 // Indicator the bot is on/off
 const readyDiscord = () => {
-    console.log("Connected 🤖");
+    console.log("Connected! 🤖");
 }
 
 client.on('ready', readyDiscord);

@@ -1,7 +1,7 @@
-const command_list_help = 'List of command:\n\n' +  
-    '1. !animalemoji\n' +
-    '2. !gif <keyword>\n' +
-    '3. !ping' +
-    '4. !music <play {put link without curly bracket})/skip/stop>';
+const commandListHelp = `List of command:
+1. !ping
+2. !gif <*keyword>
+3. !music <play (put link without bracket) / skip / stop>
+4. !animalemoji`;
 
-module.exports = (msg) => msg.channel.send(command_list_help);
+module.exports = (msg) => msg.channel.send(commandListHelp);
