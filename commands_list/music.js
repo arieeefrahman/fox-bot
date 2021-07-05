@@ -32,12 +32,12 @@ module.exports = async (msg, args) => {
             song = { title: song_info.videoDetails.title, url: song_info.videoDetails.video_url }
         } else {
             //If there was no link, we use keywords to search for a video. Set the song object to have two keys. Title and URl.
-            const video_finder = async (query) => {
-                const video_result = await ytSearch(query);
+            const video_finder = (query) => {
+                const video_result = ytSearch(query);
                 return (video_result.videos.length > 1) ? video_result.videos[0] : null;
             }
 
-            const video = await video_finder(args.join(' '));
+            const video = video_finder(args.join(' '));
             if (video){
                 song = { title: video.title, url: video.url }
             } else {
