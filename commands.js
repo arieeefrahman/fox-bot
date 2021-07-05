@@ -9,7 +9,7 @@ const commands = { animalemoji, gif, ping, help, music };
 module.exports = async (msg) => {
     console.log(msg.content); // indicator in terminal
 
-    if (msg.channel == '857986376896872469') {
+    if (msg.channel == '857986376896872469' || msg.channel == '816390273902968833') {
         let tokens = msg.content.split(" ");
         let userCommand = tokens.shift();
         
